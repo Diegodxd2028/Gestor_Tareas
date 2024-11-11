@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GestorTareas</class>
+ <widget class="QWidget" name="GestorTareas">
+  <property name="windowTitle">
+   <string>Gestor de Tareas</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="titleLayout">
+     <item>
+      <widget class="QLabel" name="titleLabel">
+       <property name="text">
+        <string>Título:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="titulo_entry"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="descriptionLayout">
+     <item>
+      <widget class="QLabel" name="descriptionLabel">
+       <property name="text">
+        <string>Descripción:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="descripcion_entry"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="agregar_btn">
+     <property name="text">
+      <string>Agregar Tarea</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="tareas_listbox"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="completar_btn">
+     <property name="text">
+      <string>Marcar como Completada</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="eliminar_btn">
+     <property name="text">
+      <string>Eliminar Tarea</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
